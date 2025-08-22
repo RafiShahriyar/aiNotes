@@ -1,0 +1,54 @@
+# -------------------
+# Frontend / Node.js
+# -------------------
+
+# dependencies
+/aiNotes/node_modules
+/aiNotes/.pnp
+/aiNotes/.pnp.*
+/aiNotes/.yarn/*
+!/aiNotes/.yarn/patches
+!/aiNotes/.yarn/plugins
+!/aiNotes/.yarn/releases
+!/aiNotes/.yarn/versions
+
+# testing
+/aiNotes/coverage
+
+# next.js
+/aiNotes/.next/
+/aiNotes/out/
+
+# production
+/aiNotes/build
+
+# -------------------
+# Backend / Secrets
+# -------------------
+/backend/.env
+
+
+# -------------------
+# Misc / OS / Logs
+# -------------------
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (optional for aiNotes)
+/aiNotes/.env.local
+
+# vercel
+/aiNotes/.vercel
+
+# TypeScript
+*.tsbuildinfo
+/aiNotes/next-env.d.ts
+
+# Ignored for the template, you probably want to remove it:
+package-lock.json
